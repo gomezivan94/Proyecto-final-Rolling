@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+.pie{
+    background-color: #FD8B51;
+}
+
+img{
+    width: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 30px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+
+div h2{
+    color: #257180;
+    padding: 10px;
+}
+
+a{
+    color: #F2E5BF;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+
+button{
+    padding: 10px 20px;
+    background: #F2E5BF;
+    color: #257180;
+    font-size: 18px;
+}
+
+.Derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #CB6040;
+    COLO
+
+}
