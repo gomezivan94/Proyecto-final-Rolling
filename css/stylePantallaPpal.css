@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F2E5BF;
+}
+
+.imgSecciones
+{
+    height: 25vh;
+    width: 25vh;
+    border: none;
+    object-fit: contain;
+}
