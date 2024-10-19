@@ -1,0 +1,7 @@
+.imgSecciones
+{
+    height: 25vh;
+    width: 25vh;
+    border: none;
+    object-fit: contain;
+}
