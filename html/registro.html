@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 
     <title>Document 2024</title>
 </head>
-<body>
+<body class="roboto-light">
         <!-- Boton para abrir modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesion</button>
 
@@ -87,6 +87,67 @@
         </div>
     </div>
 
+    <main class="container-fluid mt-3">
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+            <h1 class="roboto-light">Registrarse</h1>
+            <img width="300px" height="300px" class="float-end" src="../assets/img/Logo03.png" alt="Logo Rolling Style">
+        </div>
+        <div class="container d-flex flex-column justify-content-center align-items-center text-start">
+            <form class="row g-3 pt-1">
+                <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Martin" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Jerez" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefaultUsername" class="form-label">Nombre de usuario</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2"><i class="fa-solid fa-user"></i></span>
+                        <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefaultPassword" class="form-label">Contraseña</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2"><i class="fa-solid fa-key"></i></span>
+                        <input type="password" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault04" class="form-label">Provincia</label>
+                    <select class="form-select" id="validationDefault04" required>
+                        <option class="roboto-light" selected disabled value="">Provincia</option>
+                        <option class="roboto-light">Buenos Aires - CABA</option>
+                        <option class="roboto-light">Buenos Aires</option>
+                        <option class="roboto-light">Cordoba</option>
+                        <option class="roboto-light">Tucumán</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault05" class="form-label">Codigo postal</label>
+                    <input type="text" class="form-control" id="validationDefault05" required>
+                </div>
+                <div class="col-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label" for="invalidCheck2">
+                        Acepto terminos & condiciones
+                        </label>
+                    </div>
+                </div>
+                <div class="col-4 mt-2">
+                   <a class="btn btn-primary" href="error.html" role="button" type="submit">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
