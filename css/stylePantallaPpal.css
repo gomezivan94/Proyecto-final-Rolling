@@ -12,3 +12,32 @@
     border: none;
     object-fit: contain;
 }
+
+.card-title
+{
+    font-size: 2em;
+    font-weight: bold;
+    color: #257180;
+    border: #257180 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-text
+{
+    font-size: 25px;
+    color: #257180;
+    text-align: center;
+    padding: 10px;
+    background-color: #f4e9c9;
+}
+
+#estilos-btn
+{
+    background-color: #257180;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
