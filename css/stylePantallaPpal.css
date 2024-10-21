@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.styleBody
+{
     background-color: #F2E5BF;
 }
 
@@ -21,6 +25,7 @@
     border: #257180 1px solid;
     text-align: center;
     padding: 10px;
+    background-color: #F2E5BF;
 }
 
 .card-text
