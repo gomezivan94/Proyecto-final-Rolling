@@ -4,10 +4,6 @@
     padding: 1rem;
   }
 
-.navbar-custom:hover {
-  background-color: #F2E5BF;
-}
-
 .logo-img {
     max-width: 120px; 
     height: auto;
