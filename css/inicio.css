@@ -1,7 +1,5 @@
-.imgSecciones
-{
-    height: 25vh;
-    width: 25vh;
-    border: none;
-    object-fit: contain;
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }

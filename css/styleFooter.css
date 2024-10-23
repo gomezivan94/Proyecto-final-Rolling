@@ -8,10 +8,8 @@
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
-    text-align: center;
-    color: #F2E5BF;
 }
-  
+
 .pie{
     background-color: #FD8B51;
 }
@@ -49,13 +47,18 @@ span{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; 
+    text-align: center;
     
 }
 
-.section div{
+.section div {
     display: flex;
     flex-direction: column;
     text-decoration: none;
+}
+.section div a {
+    text-decoration: none;
+    color: #F2E5BF;
 }
 
 div h2{
@@ -96,52 +99,6 @@ button{
     justify-content: space-between;
     padding: 15px;
     background: #CB6040;
-    font-size: small;
-}
-/* ---Media Query--- */
-/* -------------------Dos Columnas----------------- */
-@media (max-width: 900px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .section {
-        flex-direction: column;
-    }
-
-    .section div {
-        align-items: center;
-    }
-
-    .Derechos {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    img {
-        width: 40px;
-    }
-
-    span {
-        font-size: 18px;
-    }
-
-    button {
-        font-size: 16px;
-    }
-
-/* -------------------Dos Columnas----------------- */
-
-@media (min-width: 601px) and (max-width: 900px) {
-    .section {
-        flex-direction: row;
-    }
+    color: #F2E5BF;
     
-    .section div {
-        flex: 1 1 45%;
-        margin: 10px;
-    }
-
-
-
+}

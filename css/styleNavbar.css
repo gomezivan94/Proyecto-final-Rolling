@@ -1,0 +1,11 @@
+.navbar-custom {
+    background-color: #FD8B51;
+    width: 100%;
+    padding: 1rem;
+  }
+
+.logo-img {
+    width: 100px; 
+    height: auto;
+    margin-right: 1rem;
+  }
