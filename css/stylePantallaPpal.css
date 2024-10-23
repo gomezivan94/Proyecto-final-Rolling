@@ -34,6 +34,13 @@
     color: white;
     font-size: 20px;
     border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    margin-top: 10px;
  
 }
 #estiloMain
@@ -43,4 +50,3 @@
 #styleCard
 {
     background-color: #F2E5BF;
-}
