@@ -8,7 +8,7 @@
     height: 25vh;
     width: 25vh;
     border: none;
-    object-fit: contain;
+    object-fit: cover;
 }
 .card-title
 {
@@ -50,3 +50,15 @@
 #styleCard
 {
     background-color: #F2E5BF;
+   
+}
+#styleCardSecciones
+{
+    background-color: #F2E5BF;
+    border: none;
+}
+#styleCardSecciones:hover
+{
+    background-color: #F2E5BF;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
