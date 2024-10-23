@@ -36,6 +36,7 @@ span{
 .li{
     color: #257180;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -60,12 +61,14 @@ span{
 div h2{
     color: #257180;
     padding: 5px;
+    font-size: 22px;
 }
 
 a{
     color: #F2E5BF;
     text-decoration: none;
     padding: 5px 0px;
+    font-size: medium;
 }
 
 
@@ -93,6 +96,7 @@ button{
     justify-content: space-between;
     padding: 15px;
     background: #CB6040;
+    font-size: small;
 }
 /* ---Media Query--- */
 /* -------------------Dos Columnas----------------- */
@@ -127,7 +131,7 @@ button{
         font-size: 16px;
     }
 
-/* -------------------Una Columnas----------------- */
+/* -------------------Dos Columnas----------------- */
 
 @media (min-width: 601px) and (max-width: 900px) {
     .section {
