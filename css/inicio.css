@@ -3,3 +3,13 @@
     font-weight: 300;
     font-style: normal;
 }
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+main{
+    padding-top: 70px;
+}
