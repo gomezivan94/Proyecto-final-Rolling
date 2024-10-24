@@ -3,20 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.styleBody
-{
-    background-color: #F2E5BF;
-}
-
 .imgSecciones
 {
     height: 25vh;
     width: 25vh;
     border: none;
-    object-fit: contain;
+    object-fit: cover;
 }
-
 .card-title
 {
     font-size: 2em;
@@ -27,7 +20,6 @@
     padding: 10px;
     background-color: #F2E5BF;
 }
-
 .card-text
 {
     font-size: 25px;
@@ -36,7 +28,6 @@
     padding: 10px;
     background-color: #f4e9c9;
 }
-
 #estilos-btn
 {
     background-color: #257180;
@@ -50,4 +41,24 @@
 .fa-cart-shopping{
     font-size: 30px;
     margin-top: 10px;
+ 
+}
+#estiloMain
+{
+    background-color: #F2E5BF;
+}
+#styleCard
+{
+    background-color: #F2E5BF;
+   
+}
+#styleCardSecciones
+{
+    background-color: #F2E5BF;
+    border: none;
+}
+#styleCardSecciones:hover
+{
+    background-color: #F2E5BF;
+    transform: matrix(1.1, 0, 0, 1.1, 0, 0);
 }

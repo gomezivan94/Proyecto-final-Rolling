@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-.roboto-light {
+
+.pie{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -15,61 +15,104 @@
 }
 
 img{
-    width: 50px;
+    width: 30px;
 }
+
+span{
+    font-size: 25px;
+}
+
+.in{
+    color: #257180;
+}
+.fb{
+    color: #257180;
+}
+.tw{
+    color: #257180;
+}
+.li{
+    color: #257180;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     align-items: center;
-    height: 30px;
+    
 }
 
 .section{
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
+    flex-wrap: wrap; 
+    text-align: center;
+    
 }
 
-.section div{
+.section div {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+}
+.section div a {
+    text-decoration: none;
+    color: #F2E5BF;
 }
 
 div h2{
     color: #257180;
-    padding: 10px;
+    padding: 5px;
+    font-size: 22px;
 }
 
 a{
     color: #F2E5BF;
     text-decoration: none;
-    text-align: center;
-    padding: 3px;
+    padding: 5px 0px;
+    font-size: medium;
 }
+
 
 form{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 input{
     background: none;
-    border: solid 2px white;
-    padding: 10px 20px;
+    border: solid 2px #CB6040;
+    padding: 10px;
 }
 
 button{
     padding: 10px 20px;
     background: #F2E5BF;
     color: #257180;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .Derechos{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
     background: #CB6040;
+    font-size: small;
+}    
+.section div {
+        align-items: center;
+    }
+.Derechos {
+        flex-direction: column;
+        align-items: center;
+    }
 
-}
+span {
+        font-size: 18px;
+    }
+
+button {
+        font-size: 16px;
+    }
