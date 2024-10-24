@@ -8,8 +8,13 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1000;
+    top: 0;
 }
 
 main{
     padding-top: 70px;
+}
+
+.bodyRegister{
+    background-color: #F2E5BF;
 }
