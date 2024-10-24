@@ -1,0 +1,45 @@
+ #cartModal .modal-content {
+    background-color: #f5f5f5; 
+    border-radius: 8px; 
+    color: #333; 
+  }
+  
+  #cartModal .modal-header {
+    background-color: #257180; 
+    color: white; 
+  }
+  
+  #cartModal .modal-body {
+    background-color: #ecf0f1; 
+  }
+  
+  #cartModal .modal-footer {
+    background-color: #CB6040; 
+  }
+  
+  #cartModal .modal-footer .btn-primary {
+    background-color: #F2E5BF; 
+    color: black;
+  }
+  
+  #cartModal .modal-footer .btn-secondary {
+    background-color: #FD8B51; 
+    color: black;
+  }
+  
+  #cartModal .btn-close {
+    background-color: transparent;
+    color: white;
+  }
+  
+  #cartModal .btn-danger {
+    background-color: #CB6040;
+    border-color: #c0392b;
+  }
+  
+  #cartModal h4 {
+    color: #2c3e50; /* Color del texto del total */
+    font-weight: bold;
+  }
+  
+  
