@@ -21,6 +21,7 @@ main{
 
 .btnInicio{
     background-color: #F2E5BF !important;
+    color: #257180 !important;
 }
 
 .fa-cart-shopping{
@@ -29,4 +30,5 @@ main{
 
 .btnSecondary{
     background-color: #257180 !important;
+    color: #F2E5BF !important;
 }
