@@ -5,8 +5,8 @@
 }
 .imgSecciones
 {
-    height: 25vh;
-    width: 25vh;
+    height: 20vh;
+    width: 20vh;
     border: none;
     object-fit: cover;
 }
@@ -61,4 +61,20 @@
 {
     background-color: #F2E5BF;
     transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+
+/* .ocultar{
+    display: none;
+} */
+
+@media screen and (max-width: 992px) {
+    .ocultar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ocultarPublicidad{
+        display: none;
+    }
 }
