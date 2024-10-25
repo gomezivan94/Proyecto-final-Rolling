@@ -28,5 +28,5 @@ main{
 }
 
 .btnSecondary{
-    color: #257180; 
+   background-color: #257180 !important;
 }
