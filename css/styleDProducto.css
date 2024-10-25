@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#styleMainGaleria{
+    background-color: #F2E5BF;
+}
+
+.styleBody
+{
+    background-color: #F2E5BF;
+}
+
+#descripcionProducto
+{
+    font-size: 20px;
+    color: #257180;
+    text-align: justify;
+    padding: 10px;
+    background-color: #f4e9c9;
+}
