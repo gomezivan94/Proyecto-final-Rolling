@@ -18,3 +18,15 @@ main{
 .bodyRegister{
     background-color: #F2E5BF;
 }
+
+.btnInicio{
+    background-color: #F2E5BF !important
+}
+
+.fa-cart-shopping{
+    color: #257180; 
+}
+
+.btnSecondary{
+    color: #257180; 
+}
