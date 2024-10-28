@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../css/inicio.css">
     <link rel="stylesheet" href="../css/stylePantallaPpal.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
     <link rel="stylesheet" href="../css/styleNavbar.css">
@@ -35,7 +34,7 @@
               <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./nosotros.html">Acerca de Nosotros</a>
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -45,10 +44,10 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
           </form>
           <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
-            <button type="button" class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesion</button>
-            <a href="./html/registro.html" target="_blank" class="btn btn-primary m-2">Registrarse</a>
+            <button type="button" class="btn btnInicio m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesion</button>
+            <a href="./registro.html" target="_blank" class="btn btnInicio m-2">Registrarse</a>
             <li class="nav-item mr-3">
-              <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
           </ul>
         </div>
@@ -64,7 +63,7 @@
             </div>
             <div class="modal-body row">
                 
-                  <img class="img-fluid" src="./assets/img/Logo03.png" alt="Logo RollingStyle">
+                  <img class="img-fluid" src="../assets/img/Logo03.png" alt="Logo RollingStyle">
                 
                 <form>
                     <div class="row mb-3">
@@ -86,7 +85,7 @@
                                 <label class="form-check-label mt-2" for="gridCheck1">
                                 Recuerdame
                                 </label>
-                                <a type="submit" class="btn btn-primary  float-end" href="./html/error.html">Iniciar Sesión</a>
+                                <a type="submit" class="btn btnSecondary  float-end" href="./html/error.html">Iniciar Sesión</a>
                             </div>
                         </div>
                     </div>    
@@ -94,7 +93,7 @@
             </div>
             <div class="modal-footer row-mb-6 d-flex justify-content-between">
                 <div>
-                    <a href="#" class="align-text-top"> <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Olvidé mi contraseña</button></a>
+                    <a href="#" class="align-text-top"> <button class="btn btnSecondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Olvidé mi contraseña</button></a>
                 </div>
                 <div>
                     <span>Iniciar sesión con</span>
@@ -122,7 +121,7 @@
                     </div>
             </div>
             <div class="modal-footer">
-                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btnSecondary" type="submit">Enviar</button>
             </div>
         </div>
     </div>
@@ -168,7 +167,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Seguir comprando</button>
-        <a href="404.html" class="btn btn-primary">Proceder a la Compra</a>
+        <a href="./error.html" class="btn btn-primary">Proceder a la Compra</a>
       </div>
     </div>
   </div>
