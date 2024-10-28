@@ -56,9 +56,9 @@ span{
     flex-direction: column;
     text-decoration: none;
 }
-.section div a {
-    text-decoration: none;
-    color: #F2E5BF;
+.section div p {
+    color:#F2E5BF
+    
 }
 
 div h2{
