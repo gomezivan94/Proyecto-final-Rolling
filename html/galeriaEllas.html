@@ -19,39 +19,53 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-          <div class="container-fluid d-flex justify-content-between align-items-center"> 
-            <a class="navbar-brand" href="../index.html">
-              <img src="../assets/img/Logo03.png" alt="Logo" class="logo-img">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto d-flex justify-content-lg-center justify-content-center w-100 align-items-center"> 
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-lg-0 ml-lg-3 d-flex justify-content-lg-center justify-content-center w-100">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
-              </form>
-              <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
-                <button type="button" class="btn btnInicio m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
-                <a href="../html/registro.html" target="_blank" class="btn btnInicio m-2">Registrate</a>
-                <li class="nav-item mr-3">
-                  <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
-                </li>
-              </ul>
-            </div>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <div class="container-fluid d-flex justify-content-between align-items-center"> 
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/Logo03.png" alt="Logo" class="logo-img">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto d-flex justify-content-lg-center justify-content-center w-100 align-items-center"> 
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./html/contacto.html">Contacto</a>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle btnInicio"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categorías
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./html/galeriaEllos.html">Ellos</a></li>
+                    <li><a class="dropdown-item" href="./html/galeriaEllas.html">Ellas</a></li>
+                    <li><a class="dropdown-item" href="./html/galeriaVintage.html">Vintage</a></li>
+                    <li><a class="dropdown-item" href="html/galeriaLegend.html">Legend</a></li>
+                    <li><a class="dropdown-item" href="./html/galeriaMemeras.html">Memeras</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-lg-3 d-flex justify-content-lg-center justify-content-center w-100">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
+            </form>
+            <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
+              <button type="button" class="btn m-2 btnInicio" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
+              <a href="./html/registro.html" target="_blank" class="btn m-2 btnInicio" >Registrate</a>
+              <li class="nav-item mr-3">
+                <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
+      </nav>
       </header>
       <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -173,7 +187,7 @@
     </div>
      
     <main id="styleMainGaleria">     
-        <div class="row">
+        <div class="row stylePortadaGaleria">
             <img src="/assets/img/Ellas1.png" alt="">
         </div>
         <br>    
