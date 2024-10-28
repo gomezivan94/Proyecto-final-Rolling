@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="../assets/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="../css/inicio.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/stylePantallaPpal.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
     <link rel="stylesheet" href="../css/styleNavbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7e6b7f939b.js" crossorigin="anonymous"></script>
 
-    <title>Registro</title>
+    <title>RollingStyle | Registro</title>
 </head>
 <body class="roboto-light bodyRegister">
     <header>
@@ -32,7 +33,7 @@
                   <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de Nosotros</a>
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./contacto.html">Contacto</a>
@@ -42,8 +43,7 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
               </form>
               <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
-                <button type="button" class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
-                <a href="./html/registro.html" target="_blank" class="btn btn-primary m-2">Registrate</a>
+                <button type="button" class="btn btnInicio m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
                 <li class="nav-item mr-3">
                   <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
                 </li>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="modal-body row">
                     
-                      <img class="img-fluid" src="./assets/img/Logo03.png" alt="Logo RollingStyle">
+                      <img class="img-fluid" src="../assets/img/Logo03.png" alt="Logo RollingStyle">
                     
                     <form>
                         <div class="row mb-3">
@@ -83,7 +83,7 @@
                                     <label class="form-check-label mt-2" for="gridCheck1">
                                     Recordame
                                     </label>
-                                    <a type="submit" class="btn btn-primary  float-end" href="./html/error.html">Iniciar Sesión</a>
+                                    <a type="submit" class="btn btnSecondary  float-end" href="./error.html">Iniciar Sesión</a>
                                 </div>
                             </div>
                         </div>    
@@ -91,7 +91,7 @@
                 </div>
                 <div class="modal-footer row-mb-6 d-flex justify-content-between">
                     <div>
-                        <a href="#" class="align-text-top"> <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Olvidé mi contraseña</button></a>
+                        <a href="#" class="align-text-top"> <button class="btn btnSecondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Olvidé mi contraseña</button></a>
                     </div>
                     <div>
                         <span>Iniciar sesión con</span>
@@ -119,7 +119,7 @@
                         </div>
                 </div>
                 <div class="modal-footer">
-                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btnSecondary" type="submit">Enviar</button>
                 </div>
             </div>
         </div>
@@ -165,7 +165,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Seguir Comprando</button>
-            <a href="404.html" class="btn btn-primary">Proceder a la Compra</a>
+            <a href="./error.html" class="btn btn-primary">Proceder a la Compra</a>
           </div>
         </div>
       </div>
@@ -177,33 +177,33 @@
         </div>
         <div class="container d-flex flex-column justify-content-center align-items-center text-start">
             <form class="row g-3 pt-1">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefault01" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="validationDefault01" placeholder="Martin" required>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefault02" class="form-label">Apellido</label>
                     <input type="text" class="form-control" id="validationDefault02" placeholder="Jerez" required>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefaultUsername" class="form-label">Nombre de Usuario</label>
                     <div class="input-group">
                         <span class="input-group-text" id="inputGroupPrepend2"><i class="fa-solid fa-user"></i></span>
                         <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefaultPassword" class="form-label">Contraseña</label>
                     <div class="input-group">
                         <span class="input-group-text" id="inputGroupPrepend2"><i class="fa-solid fa-key"></i></span>
                         <input type="password" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefault03" class="form-label">Ciudad</label>
                     <input type="text" class="form-control" id="validationDefault03" required>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefault04" class="form-label">Provincia</label>
                     <select class="form-select" id="validationDefault04" required>
                         <option class="roboto-light" selected disabled value="">Provincia</option>
@@ -213,20 +213,20 @@
                         <option class="roboto-light">Tucumán</option>
                     </select>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefault05" class="form-label">Código Postal</label>
                     <input type="text" class="form-control" id="validationDefault05" required>
                 </div>
-                <div class="col-4">
+                <div class="col-8 col-lg-4 mt-2">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                        <label class="form-check-label" for="invalidCheck2">
+                        <label class="form-check-label mt-1" for="invalidCheck2">
                         Acepto Términos & Condiciones
                         </label>
                     </div>
                 </div>
-                <div class="col-4 mt-2">
-                    <a class="btn btn-primary" href="error.html" role="button" type="submit">Registrate</a>
+                <div class="col mt-2">
+                    <a class="btn btnSecondary mt-2" href="error.html" role="button" type="submit">Registrate</a>
                 </div>
             </form>
         </div>
@@ -234,7 +234,7 @@
     <footer class="pie"> 
         <div class="header">
             <div class="logo">
-                <img src="./assets/img/Logo03.png" alt="Logo" style="width: 90px;">
+                <img src="../assets/img/Logo03.png" alt="Logo" style="width: 90px;">
             </div>
             <!-- Iconos Redes -->
             <div class="redes">

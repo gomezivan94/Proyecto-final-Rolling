@@ -12,3 +12,9 @@
 {
     background-color: #F2E5BF;
 }
+
+.stylePortadaGaleria {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}

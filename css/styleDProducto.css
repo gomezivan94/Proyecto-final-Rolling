@@ -21,3 +21,13 @@
     padding: 10px;
     background-color: #f4e9c9;
 }
+
+#estiloCantidad
+{
+    background-color: #257180;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perfiles{
+    height: 20vh;
+    width: 20vh;
+    border: 5px solid #CB6040;
+    object-fit: cover;
+}
+.nosotros{
+    color: #257180;
+    
+}
+.perfil{
+    color: #257180;
+}
+
+main{
+    padding-bottom: 15px;
+}
