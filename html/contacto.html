@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16"  href="../assets/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,10 +35,24 @@
                   <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Acerca de Nosotros</a>
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btnInicio"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categorías
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./galeriaEllos.html">Ellos</a></li>
+                      <li><a class="dropdown-item" href="./galeriaEllas.html">Ellas</a></li>
+                      <li><a class="dropdown-item" href="./galeriaVintage.html">Vintage</a></li>
+                      <li><a class="dropdown-item" href="./galeriaLegend.html">Legend</a></li>
+                      <li><a class="dropdown-item" href="./galeriaMemeras.html">Memeras</a></li>
+                    </ul>
+                  </div>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-lg-3 d-flex justify-content-lg-center justify-content-center w-100">
@@ -45,9 +60,9 @@
               </form>
               <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
                 <button type="button" class="btn btnInicio m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
-                <a href="../html/registro.html" target="_blank" class="btn btnInicio m-2">Registrate</a>
+                <a href="./registro.html" target="_blank" class="btn btnInicio m-2">Registrate</a>
                 <li class="nav-item mr-3">
-                  <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <a data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
                 </li>
               </ul>
             </div>
