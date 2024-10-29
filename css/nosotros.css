@@ -20,5 +20,9 @@
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     padding-bottom: 15px;
+    align-items: center;
+    justify-content: center;
 }
