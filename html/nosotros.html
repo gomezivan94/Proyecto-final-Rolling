@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Pagina acerca de los integrantes de RollingStyle">
+    <meta name="keywords" content="ropa, remeras, memeras, vintage, ellas, ellos, diseño,estilo">
+    <meta name="author" content="Lucas Moretta">
     <link rel="stylesheet" href="../css/inicio.css">
     <link rel="icon" type="image/png" sizes="16x16"  href="../assets/favicons/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +22,7 @@
 
     <title>Rolling Style | Nosotros</title>
 </head>
-<body class="styleBody">
+<body class="styleBodyNosotros">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
       <div class="container-fluid d-flex justify-content-between align-items-center"> 
@@ -38,31 +41,17 @@
               <a class="nav-link" href="./nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-            <li>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle btnInicio"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorías
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./galeriaEllos.html">Ellos</a></li>
-                  <li><a class="dropdown-item" href="./galeriaEllas.html">Ellas</a></li>
-                  <li><a class="dropdown-item" href="./galeriaVintage.html">Vintage</a></li>
-                  <li><a class="dropdown-item" href="./galeriaLegend.html">Legend</a></li>
-                  <li><a class="dropdown-item" href="./galeriaMemeras.html">Memeras</a></li>
-                </ul>
-              </div>
+              <a class="nav-link" href="./html/contacto.html">Contacto</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 ml-lg-3 d-flex justify-content-lg-center justify-content-center w-100">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar productos" aria-label="Buscar">
           </form>
           <ul class="navbar-nav d-flex flex-row justify-content-lg-center justify-content-center w-100 flex-wrap">
-            <button type="button" class="btn btnInicio m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesion</button>
-            <a href="./registro.html" target="_blank" class="btn btnInicio m-2">Registrarse</a>
+            <button type="button" class="btn btn-primary m-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesion</button>
+            <a href="./html/registro.html" target="_blank" class="btn btn-primary m-2">Registrarse</a>
             <li class="nav-item mr-3">
-              <a data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="./carrito.html" data-bs-toggle="modal" data-bs-target="#cartModal"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
           </ul>
         </div>
@@ -100,7 +89,7 @@
                                 <label class="form-check-label mt-2" for="gridCheck1">
                                 Recuerdame
                                 </label>
-                                <a type="submit" class="btn btnSecondary  float-end" href="./html/error.html">Iniciar Sesión</a>
+                                <a type="submit" class="btn btn-primary  float-end" href="./error.html">Iniciar Sesión</a>
                             </div>
                         </div>
                     </div>    
@@ -189,7 +178,7 @@
 </div>
 <main id="estiloMain">
     <section class="container text-center ocultar row ">
-      <img src="../assets/img/Logo01.png" alt="" class="img-fluid h-auto w-auto text-center">
+      <img src="../assets/img/Logo03.png" alt="Logo RollingStyle" class="img-fluid h-auto w-auto text-center">
         <h2 class="nosotros text-center mt-5 display-5 fw-medium">
           Estimados miembros del jurado y asistentes, agradecemos la oportunidad de presentarles nuestro proyecto, "Rolling Style". Somos un equipo de cinco desarrolladores de software comprometidos con la innovación y la calidad. A continuación, nos gustaría presentar a cada uno de nosotros y nuestra propuesta.
 
@@ -199,56 +188,56 @@
       <hr>
         <section class="container ocultar row">
         <div class="row text-center d-flex justify-content-center">
-          <article class="col-lg-2 col-md-2 col-sm-2 .d-sm-none .d-lg-block">                
+          <article class="col-lg-2 col-md-4 col-sm-6 col-12 .d-lg-block">                
             <div class="card" id="styleCardSecciones">
               <a
                 class="text-center fs-5"
-                href="#"
-                ><img src="../assets/img/ivan.png" alt="logoEllos" class="perfiles img-fluid rounded-circle" /></a
+                href="https://github.com/gomezivan94" target="_blank"
+                ><img src="../assets/img/ivan.png" alt="Ivan" class="perfiles img-fluid rounded-circle" /></a
               >
-              <h3 class="perfil">Ricardo Ivan Gomez</h3>
+              <h3 class="perfil">Ricardo Iván Gomez</h3>
               </div>
           </article>
-          <article class="col-lg-2 col-md-2 col-sm-2 .d-sm-none .d-lg-block">
+          <article class="col-lg-2 col-md-4 col-sm-6 col-12 .d-lg-block">
             
-            <div class="card" id="styleCardSecciones">
+            <div class="card bg-transparent" id="styleCardSecciones">
               <a
                 class="text-center fs-5"
-                href="/html/galeriaEllas.html"
-                ><img src="../assets/img/felix.jpg" alt="logoEllas" class="perfiles rounded-circle" /></a
+                href="https://github.com/felixdiaztransener" target="_blank"
+                ><img src="../assets/img/felix.jpg" alt="Felix" class="perfiles rounded-circle" /></a
               >
-              <h3 class="perfil">Felìx Gerardo Dìaz</h3>
+              <h3 class="perfil">Félix Gerardo Díaz</h3>
             </div>
           </article>
-          <article class="col-lg-2 col-md-2 col-sm-2 .d-sm-none .d-lg-block">
+          <article class="col-lg-2 col-md-4 col-sm-6 col-12 .d-lg-block">
             
             <div class="card" id="styleCardSecciones">
               <a
                 class="text-center fs-5"
-                href="/html/galeriaLegend.html"
-                ><img src="../assets/img/blank-profile-picture-973460_640.webp" alt="logoLegend" class="perfiles rounded-circle" /></a
+                href="https://github.com/GasGalvan" target="_blank"
+                ><img src="../assets/img/gaston.jpg" alt="Gaston" class="perfiles rounded-circle" /></a
               >
-              <h3 class="perfil">Gaston Galvan</h3>
+              <h3 class="perfil">Gastón Galván</h3>
             </div>
           </article>
-          <article class="col-lg-2 col-md-2 col-sm-2 .d-sm-none .d-lg-block">
+          <article class="col-lg-2 col-md-4 col-sm-6 col-12 .d-lg-block">
             
             <div class="card" id="styleCardSecciones">
               <a
                 class="text-center fs-5"
-                href="/html/galeriaVintage.html"
-                ><img src="../assets/img/juan.jpg" alt="logoVintage" class="perfiles rounded-circle " /></a
+                href="https://github.com/JUANCA371" target="_blank"
+                ><img src="../assets/img/juan.jpg" alt="Juan" class="perfiles rounded-circle " /></a
               >
               <h3 class="perfil">Juan Carlos Osman</h3>
             </div>
           </article>
-          <article class="col-lg-2 col-md-2 col-sm-2 .d-sm-none .d-lg-block">
+          <article class="col-lg-2 col-md-4 col-sm-6 col-12 .d-lg-block">
             
             <div class="card" id="styleCardSecciones">
               <a
                 class="text-center fs-5"
-                href="/html/galeriaMemeras.html"
-                ><img src="../assets/img/lucas.jpeg" alt="logoMemeras" class="perfiles rounded-circle img-fluid" /></a
+                href="https://github.com/lucasmoretta" target="_blank"
+                ><img src="../assets/img/lucas.jpeg" alt="Lucas" class="perfiles rounded-circle img-fluid" /></a
               >
               <h3 class="perfil">Lucas Moretta</h3>
             </div>
@@ -261,54 +250,55 @@
     </main>
     <!-- Footer -->
     <footer class="pie"> 
-        <div class="header">
-            <div class="logo">
-                <img src="../assets/img/Logo03.png" alt="Logo" style="width: 90px;">
-            </div>
-            <!-- Iconos Redes -->
-            <div class="redes">
-              <a href="https://www.instagram.com"><span class="in"><i class="fa-brands fa-instagram"></i></span></a>
-              <a href="https://www.facebook.com"><span class="fb"><i class="fa-brands fa-facebook"></i></span></a>
-              <a href="https://www.twitter.com"><span class="tw"><i class="fa-brands fa-twitter"></i></span></a>  
-              <a href="https://www.linkedin.com"><span class="li"><i class="fa-brands fa-linkedin"></i></span></a>  
-            </div>
-        </div>
-        <hr>
-        <!-- Columnas -->
-        <div class="section">
-            <div class="col col-lg-3 col-md-6 col-sm-12">
-                <h2>Informacion</h2>
-                <a href="#">Centro de Ayuda</a>                
-                <a href="#">Politica de cambio</a>
-                <a href="#">Boton de arrepentimiento</a>
-            </div>
-            <div class="col col-lg-3 col-md-6 col-sm-12">
-                <h2>Nosotros</h2>
-                <a href="#">Trabaja con nosotros</a>
-                <a href="#">Sucursales</a>
-                <a href="#">Contacto</a>
-            </div>
-            <div class="col col-lg-3 col-md-6 col-sm-12">
-                <h2>Ayuda</h2>
-                <a href="#">Atencion al cleinte</a>
-                <a href="#">Lunes a viernes de 9:00 a 18:00</a>
-                <a href="#">Preguntas frecuentes</a>
-                
-            </div>
-            <div class="col col-lg-3 col-md-6 col-sm-12">
-                <h2>Suscribete</h2>
-                <form action="">
-                    <input type="text" placeholder="Escriba su email">
-                    <button type="submit">Suscribirse</button> 
-                </form>
-            </div>
-        </div>
-        <!-- Pie de Pagina -->
-        <div class="Derechos">
-            <p>&copy;RollingStyles | Todos los derechos reservados | 2024</p>
-            <p>Politica de Privacidad</p>
-        </div>
-    </footer>
+      <div class="header">
+          <div class="logo">
+              <img src="../assets/img/Logo03.png" alt="Logo" style="width: 90px;">
+          </div>
+          <!-- Iconos Redes -->
+          <div class="redes">
+            <a href="https://www.instagram.com"><span class="in"><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="https://www.facebook.com"><span class="fb"><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="https://www.twitter.com"><span class="tw"><i class="fa-brands fa-twitter"></i></span></a>  
+            <a href="https://www.linkedin.com"><span class="li"><i class="fa-brands fa-linkedin"></i></span></a>  
+          </div>
+      </div>
+      <hr>
+      <!-- Columnas -->
+      <div class="section">
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+              <h2>Información</h2>
+              <p>Centro de Ayuda</p>            
+              <p>Política de Cambio</p>
+              <p>Botón de Arrepentimiento</p>
+              
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+              <h2>Nosotros</h2>
+              <p>Trabajá con nosotros</p>
+              <P>Sucursales</P>
+              <P>Contacto</P>
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+              <h2>Ayuda</h2>
+              <P>Atención al Cliente</P>
+              <P>Lunes a viernes de 9:00 a 18:00</P>
+             <P>Preguntas Frecuentes</P>
+              
+          </div>
+          <div class="col col-lg-3 col-md-6 col-sm-12">
+              <h2>Suscribite</h2>
+              <form action="">
+                  <input type="text" placeholder="Escriba su email">
+                  <button type="submit">Suscribite</button> 
+              </form>
+          </div>
+      </div>
+      <!-- Pie de Pagina -->
+      <div class="Derechos">
+          <p>&copy;RollingStyles | Todos los Derechos Reservados | 2024</p>
+          <p>Política de Privacidad</p>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
