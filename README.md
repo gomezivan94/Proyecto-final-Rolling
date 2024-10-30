@@ -4,7 +4,7 @@
 
 # Proyecto: E-Commerce
 
-# Tecnologias: ![image](https://github.com/user-attachments/assets/a9575875-f290-400e-9d71-047a4fe88675)
+# Tecnologias: 
 
 
 
