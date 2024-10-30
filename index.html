@@ -147,49 +147,47 @@
 </div>
 
 <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg"> 
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="cartModalLabel">Carrito de Compras</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="cart-item border-bottom py-2">
-          <div class="d-flex justify-content-between">
-            <strong>Remera Ellas</strong>
-            <span>$29000</span>
-          </div>
-          <div class="d-flex justify-content-between">
-            <small class="text-muted">Cantidad: 1</small>
-            <small class="text-muted">Subtotal: $29000</small>
-          </div>
-          <div class="text-end mt-2">
-            <a href="./html/error.html" class="btn btn-danger btn-sm">Eliminar</a>
-          </div>
-        </div>
-
-        <div class="cart-item border-bottom py-2">
-          <div class="d-flex justify-content-between">
-            <strong>Remera Memeras</strong>
-            <span>$29000</span>
-          </div>
-          <div class="d-flex justify-content-between">
-            <small class="text-muted">Cantidad: 2</small>
-            <small class="text-muted">Subtotal: $58000</small>
-          </div>
-          <div class="text-end mt-2">
-            <a href="./html/error.html" class="btn btn-danger btn-sm">Eliminar</a>
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-between align-items-center mt-3">
-          <h5>Total: $87000</h5>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Subtotal</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="cartItems">
+            <tr>
+              <td>Remera Ellas</td>
+              <td>$29000</td>
+              <td>1</td>
+              <td>$29000</td>
+              <td><button class="btn btn-danger">Eliminar</button></td>
+            </tr>
+            <tr>
+              <td>Remera Memeras</td>
+              <td>$29000</td>
+              <td>2</td>
+              <td>$58000</td>
+              <td><button class="btn btn-danger">Eliminar</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="d-flex justify-content-end">
+          <h4>Total: $87000</h4>
         </div>
       </div>
-
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
-        <a href="./html/error.html" class="btn btn-primary">Proceder a la Compra</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Seguir Comprando</button>
+        <a href="./error.html" class="btn btn-primary">Proceder a la Compra</a>
       </div>
     </div>
   </div>
