@@ -18,30 +18,3 @@ main{
     background-size: cover;
     background-position: center;
 }
-
-.boton{
-    width: 100%;
-}
-.boton1{ 
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #257180;
-    padding: 5px;
-}
-.b{
-    background-color:#FD8B51;
-    border-radius: 5px;   
-}
-.b:hover{
-    background-color: #cb6040;
-}
-a{
-    font-size: 25px;
-    font-weight: 20px;
-}
-.linea{
-    text-decoration: none;
-    font-size: x-large;
-    font-weight: 500;   
-}
