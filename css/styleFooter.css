@@ -54,12 +54,14 @@ span{
 .section div {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
-}
-.section div p {
-    color:#F2E5BF
     
 }
+.section div a {
+    color:#F2E5BF;
+    text-decoration: none; 
+}
+
+
 
 div h2{
     color: #257180;
