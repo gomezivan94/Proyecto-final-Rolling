@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/stylePantallaPpal.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
     <link rel="stylesheet" href="../css/styleNavbar.css">
+    <link rel="stylesheet" href="../css/styleCarrito.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -173,23 +174,13 @@
             <small class="text-muted">Cantidad: 2</small>
             <small class="text-muted">Subtotal: $58000</small>
           </div>
-          <div class="text-end mt-2">
-            <a href="./html/error.html" class="btn btn-danger btn-sm">Eliminar</a>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" aria-label="Close">Seguir Comprando</button>
+            <a href="./error.html" class="btn btn-primary">Proceder a la Compra</a>
           </div>
         </div>
-
-        <div class="d-flex justify-content-between align-items-center mt-3">
-          <h5>Total: $87000</h5>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir Comprando</button>
-        <a href="./html/error.html" class="btn btn-primary">Proceder a la Compra</a>
       </div>
     </div>
-  </div>
-</div>
 
     <main class="container-fluid my-3">
         <div class="container-fluid d-flex justify-content-center align-items-center">
@@ -198,13 +189,17 @@
         <div class="container d-flex flex-column justify-content-center align-items-center text-start">
             <form class="row g-3 pt-1">
                 <div class="col-md-4 col-sm-12 col-8">
-                    <label for="validationDefault01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="validationDefault01" placeholder="Martin" required>
+                    <label for="validationDefault01" class="form-label">Nombre y Apellido</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="Martin Jerez" required>
                 </div>
                 <div class="col-md-4 col-sm-12 col-8">
-                    <label for="validationDefault02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="validationDefault02" placeholder="Jerez" required>
+                    <label for="validationDefault02" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="validationDefault02" placeholder="Ejemplo@rollingstyle.com" required>
                 </div>
+                <div class="col-md-4 col-sm-12 col-8">
+                  <label for="validationDefault03" class="form-label">Telefono</label>
+                  <input pattern="[0-9]+" type="tel" inputmode="numeric" class="form-control" id="validationDefault03" required>
+              </div>
                 <div class="col-md-4 col-sm-12 col-8">
                     <label for="validationDefaultUsername" class="form-label">Nombre de Usuario</label>
                     <div class="input-group">
@@ -220,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-8">
-                    <label for="validationDefault03" class="form-label">Ciudad</label>
+                    <label for="validationDefault03" class="form-label">Direccion</label>
                     <input type="text" class="form-control" id="validationDefault03" required>
                 </div>
                 <div class="col-md-4 col-sm-12 col-8">
